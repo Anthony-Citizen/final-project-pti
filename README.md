@@ -1,4 +1,4 @@
-# holograph-uas-pti
+# Holograph
 
 ## Project setup
 ```
