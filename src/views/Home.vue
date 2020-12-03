@@ -2,8 +2,8 @@
   <div class="home">
     <Navbar />
     <h1>Home</h1>
-    <div class="col-md3 mt-4">
-      <CardItem />
+    <div class="col-md3 mt-4" v-for="item in items" :key="item.id">
+      <CardItem :item="item"/>
     </div>
   </div>
 </template>
@@ -21,7 +21,7 @@ export default {
   name: 'Home',
   components: {
     Navbar,
-    CardItem
+    CardItem,
   },
   data() {
     return {
@@ -29,21 +29,15 @@ export default {
     };
   },
   methods: {
-    setItem(data) {
+    setItems(data) {
       this.items = data;
     },
   },
   mounted(){
       axios
       .get(`${BASE_URL}/user`, { headers: { 'app-id': APP_ID } })
-      .then(function (response) {
-        // handle success
-        console.log("Berhasil", response);
-      })
-      .catch(function (error) {
-        // handle error
-        console.log("Gagal", error);
-      })
-  }
+      .then((response) => this.setItems(response.data.data))
+      .catch((error) => console.log(error))
+  },
 }
 </script>

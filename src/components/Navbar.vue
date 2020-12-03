@@ -26,7 +26,7 @@
             <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Explore</router-link>
+            <router-link class="nav-link" to="/explore">Explore</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/profile">Profile</router-link>
