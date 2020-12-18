@@ -1,86 +1,81 @@
 <template>
-  <div>
+<div>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
         <Navbar />
-    <div class="content">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="text-center card-box">
-                    <div class="member-card pt-2 pb-2">
-                        <div class="thumb-lg member-thumb mx-auto"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" class="rounded-circle img-thumbnail" alt="profile-image"></div>
-                        <div class="">
-                            <h4 class="name">Anthony Rafael</h4>
-                            <p class="title text-muted">@Founder <span>| </span><span><a href="#" class="text-pink">websitename.com</a></span></p>
-                        </div>
-                        <ul class="social-links list-inline">
-                            <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Skype"><i class="fa fa-skype"></i></a></li>
-                        </ul>
-                        <button type="button" class="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">Message Now</button>
-                    </div>
-                </div>
+<div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-8 col-lg-6">
+            <!-- Section Heading-->
+            <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+              <h3>Our Creative <span> Team</span></h3>
+              <div class="line"></div>
             </div>
-            <!-- end col -->
-            <div class="col-md-3">
-                <div class="text-center card-box">
-                    <div class="member-card pt-2 pb-2">
-                        <div class="thumb-lg member-thumb mx-auto"><img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle img-thumbnail" alt="profile-image"></div>
-                        <div class="">
-                            <h4 class="name">Gerald N. Chandra</h4>
-                            <p class="title text-muted">@Programmer <span>| </span><span><a href="#" class="text-pink">websitename.com</a></span></p>
-                        </div>
-                        <ul class="social-links list-inline">
-                            <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Skype"><i class="fa fa-skype"></i></a></li>
-                        </ul>
-                        <button type="button" class="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">Message Now</button>
-                    </div>
-                </div>
-            </div>
-            <!-- end col -->
-            <div class="col-md-3">
-                <div class="text-center card-box">
-                    <div class="member-card pt-2 pb-2">
-                        <div class="thumb-lg member-thumb mx-auto"><img src="https://bootdey.com/img/Content/avatar/avatar5.png" class="rounded-circle img-thumbnail" alt="profile-image"></div>
-                        <div class="">
-                            <h4 class="name">M. Zidane Fattah</h4>
-                            <p class="title text-muted">@Programmer <span>| </span><span><a href="#" class="text-pink">websitename.com</a></span></p>
-                        </div>
-                        <ul class="social-links list-inline">
-                            <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Skype"><i class="fa fa-skype"></i></a></li>
-                        </ul>
-                        <button type="button" class="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">Message Now</button>
-                    </div>
-                </div>
-            </div>
-            <!-- end col -->
-            <div class="col-md-3">
-                <div class="text-center card-box">
-                    <div class="member-card pt-2 pb-2">
-                        <div class="thumb-lg member-thumb mx-auto"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle img-thumbnail" alt="profile-image"></div>
-                        <div class="">
-                            <h4 class="name">Toni Sembiring</h4>
-                            <p class="title text-muted">@Programmer <span>| </span><span><a href="#" class="text-pink">websitename.com</a></span></p>
-                        </div>
-                        <ul class="social-links list-inline">
-                            <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Skype"><i class="fa fa-skype"></i></a></li>
-                        </ul>
-                        <button type="button" class="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light">Message Now</button>
-                    </div>
-                </div>
-            </div>
-            <!--end col-->
+          </div>
         </div>
-        <!-- end row -->
-    </div>
-    </div>
-    </div>
+        <div class="row">
+          <!-- Single Advisor-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img class="ct" src="https://bootdey.com/img/Content/avatar/avatar7.png" style="height:100%" alt="">
+                <!-- Social Info-->
+                <div class="social-info"><a href="https://www.facebook.com/anthony.rafael.547389" target="_blank"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/AnthonyR2503?s=08" target="_blank"><i class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/in/anthony-rafael-2503/" target="_blank"><i class="fa fa-linkedin"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6>Anthony Rafael</h6>
+                <p class="designation">Programmer</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Advisor-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img class="ct" src="https://bootdey.com/img/Content/avatar/avatar1.png" style="height:100%" alt="">
+                <!-- Social Info-->
+                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6>Gerald N. Chandra</h6>
+                <p class="designation">Programmer</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Advisor-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img class="ct" src="https://bootdey.com/img/Content/avatar/avatar6.png" style="height:100%" alt="">
+                <!-- Social Info-->
+                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6>M. Zidane Fattah</h6>
+                <p class="designation">Programmer</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Advisor-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img class="ct" src="https://bootdey.com/img/Content/avatar/avatar2.png" style="height:100%" alt="">
+                <!-- Social Info-->
+                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6>Toni Sembiring</h6>
+                <p class="designation">Programmer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
 </template>
 
 <script>
@@ -96,61 +91,147 @@ export default {
 </script>
 
 <style>
-.content{
-  margin-top: 20px;
+body{margin-top:20px;
+background:#eee;
 }
-
-.card-box {
-    padding: 20px;
-    border-radius: 3px;
-    margin-bottom: 30px;
-    background-color: #fff;
+.single_advisor_profile {
+    position: relative;
+    margin-bottom: 50px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    z-index: 1;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+    box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
 }
-
-.social-links li a {
-    border-radius: 50%;
-    color: rgba(121, 121, 121, .8);
-    display: inline-block;
-    height: 30px;
-    line-height: 27px;
-    border: 2px solid rgba(121, 121, 121, .5);
-    text-align: center;
-    width: 30px
+.single_advisor_profile .advisor_thumb {
+    position: relative;
+    z-index: 1;
+    border-radius: 15px 15px 0 0;
+    margin: 0 auto;
+    padding: 30px 30px 0 30px;
+    background-color: #3f43fd;
+    overflow: hidden;
 }
-
-.social-links li a:hover {
-    color: #797979;
-    border: 2px solid #797979
+.single_advisor_profile .advisor_thumb::after {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    width: 150%;
+    height: 80px;
+    bottom: -45px;
+    left: -25%;
+    content: "";
+    background-color: #ffffff;
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
 }
-.thumb-lg {
-    height: 88px;
-    width: 88px;
+@media only screen and (max-width: 575px) {
+    .single_advisor_profile .advisor_thumb::after {
+        height: 160px;
+        bottom: -90px;
+    }
+    .ct{
+        height:100%;
+    }
 }
-.img-thumbnail {
-    padding: .25rem;
-    background-color: #fff;
-    border: 1px solid #dee2e6;
-    border-radius: .25rem;
-    max-width: 100%;
-    height: auto;
+.single_advisor_profile .advisor_thumb .social-info {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    bottom: 0;
+    right: 30px;
+    text-align: right;
 }
-.text-pink {
-    color: #ff679b!important;
+.single_advisor_profile .advisor_thumb .social-info a {
+    font-size: 14px;
+    color: #020710;
+    padding: 0 5px;
 }
-.btn-rounded {
-    border-radius: 2em;
+.single_advisor_profile .advisor_thumb .social-info a:hover,
+.single_advisor_profile .advisor_thumb .social-info a:focus {
+    color: #3f43fd;
 }
-.text-muted {
-    color: #98a6ad!important;
+.single_advisor_profile .advisor_thumb .social-info a:last-child {
+    padding-right: 0;
 }
-h4 {
-    line-height: 22px;
-    font-size: 20px;
+.single_advisor_profile .single_advisor_details_info {
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+    text-align: right;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    border-radius: 0 0 15px 15px;
+    background-color: #ffffff;
 }
-.name{
-  font-size: 20px;
+.single_advisor_profile .single_advisor_details_info::after {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    height: 3px;
+    background-color: #3f43fd;
+    content: "";
+    top: 12px;
+    right: 30px;
 }
-.title{
-  font-size: 13px;
+.single_advisor_profile .single_advisor_details_info h6 {
+    margin-bottom: 0.25rem;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single_advisor_profile .single_advisor_details_info h6 {
+        font-size: 14px;
+    }
+    .ct{
+        height:100%;
+    }
+}
+.single_advisor_profile .single_advisor_details_info p {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single_advisor_profile .single_advisor_details_info p {
+        font-size: 12px;
+    }
+    .ct{
+        height:100%;
+    }
+}
+.single_advisor_profile:hover .advisor_thumb::after,
+.single_advisor_profile:focus .advisor_thumb::after {
+    background-color: #070a57;
+}
+.single_advisor_profile:hover .advisor_thumb .social-info a,
+.single_advisor_profile:focus .advisor_thumb .social-info a {
+    color: #ffffff;
+}
+.single_advisor_profile:hover .advisor_thumb .social-info a:hover,
+.single_advisor_profile:hover .advisor_thumb .social-info a:focus,
+.single_advisor_profile:focus .advisor_thumb .social-info a:hover,
+.single_advisor_profile:focus .advisor_thumb .social-info a:focus {
+    color: #ffffff;
+}
+.single_advisor_profile:hover .single_advisor_details_info,
+.single_advisor_profile:focus .single_advisor_details_info {
+    background-color: #070a57;
+}
+.single_advisor_profile:hover .single_advisor_details_info::after,
+.single_advisor_profile:focus .single_advisor_details_info::after {
+    background-color: #ffffff;
+}
+.single_advisor_profile:hover .single_advisor_details_info h6,
+.single_advisor_profile:focus .single_advisor_details_info h6 {
+    color: #ffffff;
+}
+.single_advisor_profile:hover .single_advisor_details_info p,
+.single_advisor_profile:focus .single_advisor_details_info p {
+    color: #ffffff;
 }
 </style>
