@@ -15,7 +15,7 @@
         <!--<p>{{ post.owner.email }}</p>-->
       </div>
       <!--<img src="../assets/images/lrgrec.png" class="card-img-top" alt="...">-->
-      <img :src="post.image" class="card-img-top img-fluid d-block mx-auto mb-3 " alt="..." />
+      <img :src="post.image" class="card-img-top img-fluid d-block mx-auto mb-3 " style="height:100%" alt="..." />
         <div class="btn-group col-md-3" role="group" aria-label="Basic example">
             <div v-for="tag in post.tags" :key="tag">
             <button type="button" class="btn btn-danger rounded-pill mx-1 res" style="font-size:small" @click="tagFilter(tag)">{{ tag }}</button>
