@@ -12,7 +12,7 @@
         </div>
         <div class="col-md-4 nopadding">
           <div class="card">
-            <img src="../assets/images/rice-bowl.png" class="card-img-top pr-img" alt="...">
+            <img src="../assets/images/rice-bowl.png" class="card-img-top pr-img" alt="..." style="width:50px">
             <div class="card-body">
               <h5 class="card-title">Nasi Uduk</h5>
               <p class="card-text">Introduction to Internet Technology Final Project</p>
