@@ -1,58 +1,52 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#"
-        ><img
-          width="300"
-          height="50"
+<div class="wrap">
+  <b-navbar toggleable="lg" type="light" variant="light" style="background-color:white">
+    <b-navbar-brand href="#"><img
           class="d-inline-block align-top"
           src="../assets/images/Logo_Clear.png"
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      /></b-navbar-brand>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <router-link class="nav-link" to="/">Home</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/explore">Explore</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/profile">Profile</router-link>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
-      </div>
-    </div>
-  </nav>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav>
+        <router-link class="nav-link" to="/">Home</router-link>
+        <router-link class="nav-link" to="/explore">Explore</router-link>
+        <router-link class="nav-link" to="/profile">Profile</router-link>
+      </b-navbar-nav>
+
+      <!-- Right aligned nav items -->
+      <b-navbar-nav class="ml-auto">
+        <b-nav-form>
+          <b-form-input size="sm" class="mr-sm-12" placeholder="Search"></b-form-input>
+          <b-button size="sm" variant="outline-success" class="my-2 my-sm-0" type="submit">Search</b-button>
+        </b-nav-form>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+</div>
 </template>
 
 <script>
 export default {
   name: "Navbar",
+
+
 };
 </script>
 
 <style>
+.wrap{
+  margin-bottom:10px;
+}
+img {
+  width: 300px;
+  height: 50px;
+}
+@media only screen and (max-width: 600px) {
+  img {
+    width: 180px;
+    height: 30px;
+  }
+}
 </style>

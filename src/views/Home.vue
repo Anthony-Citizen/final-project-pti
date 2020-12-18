@@ -1,9 +1,27 @@
 <template>
   <div class="home">
     <Navbar />
-    <h1>Home</h1>
-    <div class="col-md3 mt-4" v-for="item in items" :key="item.id">
-      <CardItem :item="item"/>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <div class="row">
+            <div class="col-sm-12" v-for="item in items" :key="item.id">
+              <CardItem :item="item"/>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 nopadding">
+          <div class="card">
+            <img src="../assets/images/rice-bowl.png" class="card-img-top pr-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nasi Uduk</h5>
+              <p class="card-text">Introduction to Internet Technology Final Project</p>
+              <a href="#" class="btn btn-light"><router-link class="nav-link" to="/profile">Profile</router-link></a>
+              <p>&copy;Holograph-2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -15,7 +33,7 @@ import CardItem from '@/components/CardItem.vue'
 import axios from 'axios';
 
 const BASE_URL = 'https://dummyapi.io/data/api';
-const APP_ID = '5fc79a69c1c1b92aa2865b4d';
+const APP_ID = '5fd9c5812f835ac07e51038f';
 
 export default {
   name: 'Home',
@@ -31,6 +49,7 @@ export default {
   methods: {
     setItems(data) {
       this.items = data;
+      //console.log(this.items);
     },
   },
   mounted(){
@@ -41,3 +60,30 @@ export default {
   },
 }
 </script>
+
+<style>
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+@media (min-width: 200px) {
+  .pr-img {
+    width: 80vw;
+}
+}
+@media (min-width: 700px) {
+  .pr-img {
+    height: 48vw;
+}
+}
+@media (min-width: 800px) {
+  .pr-img {
+    height: 30vw;
+}
+}
+@media (min-width: 1000px) {
+  .pr-img {
+    height: 26vw;
+}
+}
+</style>
