@@ -4,7 +4,8 @@
     <b-navbar-brand href="#"><img
           class="d-inline-block align-top"
           src="../assets/images/Logo_Clear.png"
-      /><router-link class="nav-link" to="/"></router-link></b-navbar-brand>
+          @click="gotoHome()"
+      /></b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -38,7 +39,10 @@ export default {
   methods: {
     searchName(value){
       this.$router.push({ name: "UserDetail", params: { userid: value } });
-    }
+    },
+    gotoHome(){
+      this.$router.push('/')
+    },
   },
 };
 </script>
