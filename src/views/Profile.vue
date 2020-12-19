@@ -34,7 +34,7 @@
               <!-- Team Thumb-->
               <div class="advisor_thumb"><img class="ct" src="https://bootdey.com/img/Content/avatar/avatar1.png" style="height:100%" alt="">
                 <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+                <div class="social-info"><a href="https://www.facebook.com/gerald.nicholas.12/" target="_blank"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/Boolaakk?s=09" target="_blank"><i class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/in/gerald-nicholas-b13413202/" target="_blank"><i class="fa fa-linkedin"></i></a></div>
               </div>
               <!-- Team Details-->
               <div class="single_advisor_details_info">
@@ -49,7 +49,7 @@
               <!-- Team Thumb-->
               <div class="advisor_thumb"><img class="ct" src="https://bootdey.com/img/Content/avatar/avatar6.png" style="height:100%" alt="">
                 <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+                <div class="social-info"><a href="https://www.facebook.com/m.zidane.528" target="_blank"><i class="fa fa-facebook"></i></a><a href="https://mobile.twitter.com/@mzidanef8" target="_blank"><i class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/mwlite/in/m-zidane-0a7417202" target="_blank"><i class="fa fa-linkedin"></i></a></div>
               </div>
               <!-- Team Details-->
               <div class="single_advisor_details_info">
@@ -64,7 +64,7 @@
               <!-- Team Thumb-->
               <div class="advisor_thumb"><img class="ct" src="https://bootdey.com/img/Content/avatar/avatar2.png" style="height:100%" alt="">
                 <!-- Social Info-->
-                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+                <div class="social-info"><a href="https://www.facebook.com/toni.sembiring.5" target="_blank"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/ToniSembiring6" target="_blank"><i class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/in/toni-sembiring-719415202/" target="_blank"><i class="fa fa-linkedin"></i></a></div>
               </div>
               <!-- Team Details-->
               <div class="single_advisor_details_info">
