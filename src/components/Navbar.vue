@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     searchName(value){
-      this.$router.push({ name: "UserDetail", params: { name: value } });
+      this.$router.push({ name: "UserDetail", params: { userid: value } });
     }
   },
 };
