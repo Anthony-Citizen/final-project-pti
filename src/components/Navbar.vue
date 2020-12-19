@@ -4,7 +4,7 @@
     <b-navbar-brand href="#"><img
           class="d-inline-block align-top"
           src="../assets/images/Logo_Clear.png"
-      /></b-navbar-brand>
+      /><router-link class="nav-link" to="/"></router-link></b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
