@@ -45,6 +45,7 @@ export default {
 
 <style>
 .wrap{
+  
   margin-bottom:10px;
 }
 img {

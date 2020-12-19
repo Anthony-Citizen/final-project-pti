@@ -55,7 +55,7 @@ import Navbar from '@/components/Navbar.vue'
 import axios from 'axios';
 
 const BASE_URL = 'https://dummyapi.io/data/api';
-const APP_ID = '5fd9c5812f835ac07e51038f';
+const APP_ID = '5fd9c56670e3336ede8fe363';
 export default {
     name: 'UserDetail',
     components: {
